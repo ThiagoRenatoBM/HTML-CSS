@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'dodo';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+
+
+}
+
+body{
+    background-color:#82D9A0;
+
+
+}
+
+main{
+    background-color: aliceblue;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 2px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.411);
+
+}
+
+header{
+    background-image: linear-gradient(10deg, rgba(0, 0, 0, 0.822),#3BD27F );
+    
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -25px;
+    margin-top: -25px;
+    height: 180px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+header >H1{
+    padding-top: 30px;
+}
+
+header >p{
+    text-align: center;
+    
+
+}
+
+
+
+nav{
+    background-color: #1b593625;
+    color: aliceblue;
+    padding: 3px;
+    padding-left: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+nav>a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+footer{
+    background-color: #033112;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    
+    text-align: center;
+   height: 40px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
+
+footer>p{
+    text-align: center;
+    
+
+}
+
+
+
+main>h1{
+    font-family: 'dodo';
+    color: #033112;
+
+}
+
+main#baixo{
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -5px;
+
+}
+
+
+h2{
+    
+font-family: 'dodo';
+color: #033112;
+background-image: linear-gradient(70deg, #3BD27F, rgba(255, 255, 255, 0) );
+}
+
+div#video{
+    background-color: #033112;
+    width: 830px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+div#mãos{
+    text-align: center;
+
+}
+
+p{
+    text-align: justify;
+    
+
+
+}
+
+a{
+    color: #068631;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+article{
+padding-left: 20px;
+padding-right: 20px;
+margin-top: -20px;
+background-color: #3BD27F;
+color: aliceblue;
+border-radius: 10px 10px 0px 0px;
+height: 40px;
+box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.123);
+
+}
+
+article>h3{
+    padding-top: 7px;
+}
+
+aside{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: #82D9A0;
+    color: rgb(7, 7, 7);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.123);
+
+}

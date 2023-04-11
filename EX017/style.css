@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin: auto;
+
+    /*Medidas absolutas:
+    cm, mm, in(polegada), px(recomendada), pt, pc
+
+    Medidas relativas:
+    em(altura do m maiusculo-recomendada), ex, rem, vw, vh, %
+
+    */
+
+
+    font-size: 16px;
+}
+
+h1{
+color: aliceblue;
+border-color: black;
+text-shadow: 1px 1px 1px black;
+
+}

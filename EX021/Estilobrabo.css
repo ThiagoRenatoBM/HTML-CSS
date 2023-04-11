@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+    background-color: #1ed2a0;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #fefffd;
+    border-radius: 3px 3px 3px 20px;
+
+}
+
+main{
+    background-color: #3289bd;
+    padding: 10px;
+    margin-top: 10px;
+    height: 600px;
+    /* border: 2px solid rgb(63, 62, 62); */
+    border-radius: 3px 20px 3px 3px;
+}
+
+
+footer{
+
+    background-color: black;
+    color: aliceblue;
+    margin: -10px;
+    height: 110px;
+    /* border: 10px solid rgb(10, 161, 221); */
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+article{
+    background-color: #3882afbd;
+    border-radius: 10px;
+}
+
+aside{
+    background-color: #3c91c3;
+    border-radius: 10px;
+
+}
+
+nav{
+    background-color: #3289bd;
+    height: 20px;
+    padding: 3px;
+    border-radius: 3px;
+    /*sombra*/
+    box-shadow: 6px 6px 6px #0e0d0d8f;
+
+
+}
+
+/*Para editar o texto do BOX*/
+nav > a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding: 1px;
+    box-shadow: 2px 3px 7px #0e0d0d8f;
+
+}
+/*Quando passar o mouse emcina usa Hover*/
+nav > a:hover{
+    text-decoration: underline;
+
+
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(244, 255, 255);
+    color: #0a0a0a;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    
+
+}
